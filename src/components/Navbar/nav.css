@@ -1,0 +1,14 @@
+
+  /* Add custom styles for the container to allow fade-in effect */
+  .flex {
+    opacity: 0;
+    transform: translateY(-10px); /* Move the container up initially */
+  }
+
+  /* Set opacity to 1 and reset the transform on hover to reveal the container with fade-in and slide-down effect */
+  .flex:hover {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Adjust the transition speed as per your preference */
+  }
+

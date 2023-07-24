@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Monda";
+     src: local("Monda-Regular"),
+      url("./assets/Monda-Regular.ttf") format("truetype");
+    font-weight: normal;
+  } 
+  
+  
+  @font-face {
+    font-family: "Monda";
+     src: local("Monda-Bold"),
+      url("./assets/Monda-Bold.ttf") format("truetype");
+    font-weight: bold;
+  }
+
+  
+
+  
