@@ -45,7 +45,7 @@ export default function NavFoot() {
 
             } 
             </div>
-            <div className={`relative text-black hover:text-[#fac433] cursor-pointer`} onMouseEnter={()=>setshowIRDropdown(true)} onMouseLeave={()=>setshowIRDropdown(false)} >RESOURCES 
+            <div className={`relative text-black hover:text-[#fac433] cursor-pointer`} onMouseEnter={()=>setshowIRDropdown(true)} onMouseLeave={()=>setshowIRDropdown(false)} >IR 
             {
               showIRDropdown && 
               <div className="w-[200px] absolute flex flex-col gap-2 bg-black opacity-50  px-5 py-2 text-white">
