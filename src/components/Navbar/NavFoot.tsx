@@ -4,7 +4,7 @@
 export default function NavFoot() {
   return (
     <div className="p-10 flex justify-between items-center" style={{fontFamily:"Monda",fontWeight:'normal'}}>
-        <div><img src="src/assets/logo.png" alt="Logo" width={220} height={160}/></div>
+        <div><img src="./assets/logo.png" alt="Logo" width={220} height={160}/></div>
         <div className="flex gap-10 items-center">
             <div className={`text-[#fac433] hover:text-[#fac433] cursor-pointer`}>PRODUCTS</div>
             <div className={`hover:text-[#fac433] cursor-pointer`}>USE CASES</div>
