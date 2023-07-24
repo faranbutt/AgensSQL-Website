@@ -6,7 +6,7 @@ export default function FeatureTabs() {
     const [showSecondList,setShowSecondList] = useState(false);
     const [showThirdList,setShowThirdList] = useState(false);
   return (
-    <div className="grid grid-cols-3 p-10 gap-10 mx-20">
+    <div className="grid grid-cols-1 md:grid-cols-3 p-5 md:p-10 md:gap-10 md:mx-20">
         <div className="flex justify-center items-center border-2 shadow-lg bg-white p-10 rounded-lg" onMouseEnter={()=>setShowFirstList(true)} onMouseLeave={()=>setShowFirstList(false)}>
             {!showFirstList && <img src="https://bitnine.net/wp-content/uploads/2022/04/Password-Profile.png" alt="password profile" className="h-40" />}
             {showFirstList && 

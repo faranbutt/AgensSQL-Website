@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <div>
-        <div className="mb-36">
+        <div className="mb-10 md:mb-36">
           <Navbar />
         </div>
-        <div className='pt-10'>
+        <div className='md:pt-10'>
           <Hero />
         </div>
         <div>

@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "./Header";
 import NavFoot from "./NavFoot";
 import NavMiddle from "./NavMiddle";
+import MobileNav from "./MobileNav";
 
 export default function Navbar() {
   const [showHeader, setShowHeader] = useState(false);
@@ -23,14 +24,18 @@ export default function Navbar() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
   return (
-    <div className="fixed top-0 w-full bg-white">
+    <div>
+    <div className="fixed top-0 w-full bg-white hidden sm:flex flex-col">
       <div className={`w-full transition-opacity ${showHeader ? "show" : "hidden"}`}>
         <Header />
       </div>
       <NavMiddle />
       <NavFoot />
+    </div>
+    <div className="lg:hidden w-full">
+      <MobileNav />
+    </div>
     </div>
   );
 }
