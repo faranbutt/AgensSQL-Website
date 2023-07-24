@@ -10,7 +10,7 @@ export default function HaManger() {
         </div>
         <div style={{ width: "575px", height: "472px", overflow: "hidden" }}>
           <img
-            src="src/assets/ha-manger.png"
+            src="https://bitnine.net/wp-content/uploads/2022/04/img_AHM_eng-1024x922.png"
             alt="ha-manager"
             style={{ width: "100%", height: "100%", }}
           />

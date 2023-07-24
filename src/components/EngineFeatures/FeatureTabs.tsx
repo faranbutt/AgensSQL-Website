@@ -8,7 +8,7 @@ export default function FeatureTabs() {
   return (
     <div className="grid grid-cols-3 p-10 gap-10 mx-20">
         <div className="flex justify-center items-center border-2 shadow-lg bg-white p-10 rounded-lg" onMouseEnter={()=>setShowFirstList(true)} onMouseLeave={()=>setShowFirstList(false)}>
-            {!showFirstList && <img src="src/assets/Password-Profile.png" alt="password profile" className="h-40" />}
+            {!showFirstList && <img src="https://bitnine.net/wp-content/uploads/2022/04/Password-Profile.png" alt="password profile" className="h-40" />}
             {showFirstList && 
             <div className="text-[#666666]">
                 <li>user password policy reinforces login security</li>
@@ -18,7 +18,7 @@ export default function FeatureTabs() {
             
         </div>
         <div className="flex justify-center items-center border-2 shadow-lg bg-white p-10 rounded-lg" onMouseEnter={()=>setShowSecondList(true)} onMouseLeave={()=>setShowSecondList(false)}>
-            {!showSecondList && <img src="src/assets/Data-Redaction.png" alt="password profile" className="h-40" />}
+            {!showSecondList && <img src="https://bitnine.net/wp-content/uploads/2022/04/Data-Redaction.png" alt="password profile" className="h-40" />}
             {showSecondList && 
             <div className="text-[#666666]">
                 <li>enhanced data security of user personal information</li>
@@ -28,7 +28,7 @@ export default function FeatureTabs() {
             
         </div>
         <div className="flex justify-center items-center border-2 shadow-lg bg-white p-10 rounded-lg" onMouseEnter={()=>setShowThirdList(true)} onMouseLeave={()=>setShowThirdList(false)}>
-            {!showThirdList && <img src="src/assets/Auditing.png" alt="password profile" className="h-40" />}
+            {!showThirdList && <img src="https://bitnine.net/wp-content/uploads/2022/04/Auditing.png" alt="password profile" className="h-40" />}
             {showThirdList && 
             <div className="text-[#666666]">
                 <li>monitors database activities and collects data</li>

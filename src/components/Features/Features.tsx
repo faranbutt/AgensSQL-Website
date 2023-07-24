@@ -10,7 +10,7 @@ export default function Features() {
         </div>
     </div>
     <div className="px-28 pb-20">
-      <img src="src/assets/features.png" alt="features" />
+      <img src="https://bitnine.net/wp-content/uploads/2022/04/img_key-features_eng.png" alt="features" />
     </div>
    </>
    )
