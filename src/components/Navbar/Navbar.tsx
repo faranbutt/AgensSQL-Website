@@ -25,13 +25,11 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="z-100">
-      <div className={`fixed top-0 left-0 w-full transition-opacity ${showHeader ? "opacity-100" : "opacity-0"}`}>
+    <div className="fixed top-0 w-full bg-white">
+      <div className={`w-full transition-opacity ${showHeader ? "show" : "hidden"}`}>
         <Header />
       </div>
-      <div>
       <NavMiddle />
-      </div>
       <NavFoot />
     </div>
   );

@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <div>
-        <div className="sticky top-0 bg-white">
+        <div className="mb-36">
           <Navbar />
         </div>
         <div className='pt-10'>
           <Hero />
         </div>
-        <div className='z-0'>
+        <div>
         <Features />
         <Engine />
         <Enterprise />
