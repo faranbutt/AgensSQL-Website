@@ -1,6 +1,6 @@
 
 import {RiArrowDropDownLine} from 'react-icons/ri';
-import {AiOutlineSearch,AiFillMediumSquare} from 'react-icons/ai'
+import {AiFillMediumSquare} from 'react-icons/ai'
 import {BsGithub,BsYoutube,BsTwitter,BsFacebook,} from 'react-icons/bs'
 import {FaLinkedin, FaSearch} from 'react-icons/fa';
 

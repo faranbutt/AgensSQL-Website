@@ -1,5 +1,5 @@
 
-import React, { useState } from "react";
+import { useState } from "react";
 import ReactCardFlip from "react-card-flip";
 export default function CardFlip({features}:{features:any}) {
     const [flip, setFlip] = useState(false);
