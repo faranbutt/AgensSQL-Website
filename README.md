@@ -1,4 +1,4 @@
-## Dine (Full Stack Ecommerce Website) <p align="left"> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> </p>
+## Bitnine Website [![My Skills](https://skillicons.dev/icons?i=ts,tailwind,nextjs,react,vercel)](https://skillicons.dev)
 
 # The Global Leader of Graph Business Solutions
 
@@ -10,18 +10,16 @@
 
 ## Key Features:
 * Optimized and Fast 🚀
-* Sanity is used as a Headless CMS 🪐
-* Payment Gateway through Stripe 💸
 * Fully responsive design been tested on several devices 📱
 * The interface is interactive due to Tailwind be interactive with some meaningfull colors. 🎨
 
 ## FrontEnd Deployed on Vercel:
-https://dine-three.vercel.app/
+https://bitnine.vercel.app/
 
 ## To Run/Change this Website:
 ```
-git clone https://github.com/faranbutt/AgensSQL-Website.git
-cd Ecommerce-App-Full-Stack
+git clone https://github.com/faranbutt/Bitnine-Website
+cd Bitnine-Website
 npm install
 npm run dev
 ```
